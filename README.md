@@ -48,7 +48,7 @@ O **ONE**, uma parceria da [**Alura**](https://www.alura.com.br/) com a [**Oracl
 
 **Encara os Challenges de Iniciante em Programação**
 
--[SITE](https://www.alura.com.br/challenges/challenge-one-logica?_gl=1*t2twll*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODcyNjIuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): Challenges - ONE | Alura Cursos Online
+- [SITE](https://www.alura.com.br/challenges/challenge-one-logica?_gl=1*t2twll*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODcyNjIuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): Challenges - ONE | Alura Cursos Online
 
 <br>
 
