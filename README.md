@@ -76,7 +76,10 @@ O **ONE**, uma parceria da [**Alura**](https://www.alura.com.br/) com a [**Oracl
 <br>
 
 ## Referências 🔎
+
 - [W3SHOOLS](https://www.w3schools.com/)
+- [MDN](https://developer.mozilla.org/pt-BR/)
+- [FIGMA](https://www.figma.com/)
 - [BADGES](https://hendrasob.github.io/badges/)
 
 ##
