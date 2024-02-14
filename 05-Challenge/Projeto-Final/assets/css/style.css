@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-fundo: #E5E5E5;
+    --cor-mensagem: #808080;
+    --cor-texto-entrada: #0A3871;
+    --cor-texto-saida: #FFFFFF;
+    --cor-botao-primaria: #0A3871;
+    --cor-botao-secundaria: #D8DFE8;
+
+    --fonte-primaria: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Krona One', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-primaria);
+    line-height: 150%;
+}
+
+.logotipo {
+    margin-left: 2rem;
+    padding-top: 2.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    margin: 3rem 9rem;
+}
+
+.alerta,
+.mensagem {
+    color: var(--cor-mensagem);
+}
+
+textarea {
+    border: none;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-entrada);
+    font-family: var(--fonte-secundaria);
+    font-size: 0.8rem;
+}
+
+::placeholder {
+    color: var(--cor-texto-entrada);
+}
+
+textarea:focus {
+    outline: none;
+}
+
+button {
+    border: 1px solid var(--cor-botao-primaria);
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    height: 3.5rem;
+    width: 20rem;
+}
+
+button:hover {
+    background-color: lawngreen;
+    color: var(--cor-texto-saida);
+}
+
+.btn-criptografar {
+    background-color: var(--cor-botao-primaria);
+    color: var(--cor-botao-secundaria);
+}
+
+.btn-decriptografar {
+    background: var(--cor-botao-secundaria);
+    color: var(--cor-botao-primaria);
+    margin-left: 1.8rem;
+}
+
+.sessao-saida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7rem;
+    background-color: var(--cor-texto-saida);
+    border-radius: 2rem;
+    width: 18rem;
+    align-items: center;
+    text-align: center;
+}
+
+.sessao-saida>div>img {
+    width: 75%;
+}
+
+.btn-copiar {
+    background: var(--cor-botao-secundaria);
+    color: var(--cor-botao-primaria);
+    width: 15rem;
+    display: none;
+}
+
+.retorno textarea {
+    background-color: var(--cor-texto-saida);
+    width: 17.5rem;
+    height: 19.5rem;
+    border-radius: 1.3rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.rodape {
+    padding: 3.5rem;
+    color: var(--cor-texto-entrada);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+@media (max-width: 1200px) {
+
+    .logotipo {
+        margin-left: 1rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1rem;
+    }
+
+    main,
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 2rem;
+        gap: 3.5rem;
+    }
+
+    textarea {
+        font-size: 0.6rem;
+        width: 13rem;
+    }
+
+    .sessao-entrada,
+    .entrada {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button {
+        height: 2.5rem;
+        width: 15rem;
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+    }
+
+    .btn-criptografar {
+        margin-left: 1rem;
+    }
+
+    .sessao-saida {
+        width: 15rem;
+        height: 25rem;
+    }
+
+    .retorno textarea {
+        width: 14.5rem;
+        height: 10rem;
+    }
+
+    .btn-copiar {
+        width: 12rem;
+    }
+
+    .rodape {
+        padding: 2rem;
+        font-size: 1rem;
+    }
+}

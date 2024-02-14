@@ -1,0 +1,22 @@
+ALURA_ONE
+
+Live da formação:
+https://www.youtube.com/watch?v=XlfNkUeHYgE
+
+Video tutorial do desafio:
+https://www.alura.com.br/challenges/challenge-one-logica/sprint01-construa-decodificador-texto-com-javascript
+
+Trello:
+Formação - https://trello.com/b/S9dmOnQ0/forma%C3%A7%C3%A3o-iniciante-em-programa%C3%A7%C3%A3o
+Desafio - https://trello.com/b/EmUFmjCv/decodificador-de-texto-alura-challenges-oracle-one
+
+Figma:
+https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=0-1&mode=design&t=B6ZgXYblW4880u2K-0
+
+Video com a solução:
+html-css: https://www.youtube.com/watch?v=04QvWw4aHlk
+javascript: https://www.youtube.com/watch?v=e3PasHJMIF8
+
+Link da entrega:
+https://lp.alura.com.br/alura-latam-entrega-challenge-one-portugues
+

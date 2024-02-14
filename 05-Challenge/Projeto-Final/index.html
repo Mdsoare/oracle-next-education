@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <title>Decodificador de textos</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://cursos.alura.com.br/dashboard" target="_blank" rel="noopener noreferrer">
+            <img class="logotipo" src="./assets/img/logo.svg" alt="Imagem do logo da Alura"
+                title="Acesse o site da Alura">
+        </a>
+    </header>
+    <main>
+        <section class="sessao-entrada">
+            <textarea class="inputText" cols="75" rows="25" placeholder="Digite seu texto"></textarea>
+            <h6 class="alerta">! Apenas letras minúsculas e sem acento.</h6>
+            <div class="entrada">
+                <button class="btn-criptografar" onclick="encrypt()">Criptografar</button>
+                <button class="btn-decriptografar" onclick="decrypt()">Decriptografar</button>
+            </div>
+        </section>
+        <section class="sessao-saida">
+            <div class="retorno">
+                <img class="mensagem" src="./assets/img/avatar.svg"
+                    alt="Imagem de um boneco com uma lupa sobre um diamante" title="Avatar">
+                <h3 class="mensagem">Nenhuma mensagem encontrada</h3>
+                <p class="mensagem">Digite o texto que você deseja criptografar ou decriptografar.</p>
+            </div>
+            <button class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+    <footer>
+        <p class="rodape">Desenvolvido por 🕶 Marcelo Soares™.</p>
+</body>
+
+</html>
