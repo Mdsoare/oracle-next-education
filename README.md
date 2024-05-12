@@ -20,7 +20,7 @@ O **ONE**, uma parceria da [**Alura**](https://www.alura.com.br/) com a [**Oracl
 
 ## Conteúdo Programático ⌛
 
-**Aprenda lógica de programação**
+**Lógica de programação**
 
 - [ARTIGO](https://www.alura.com.br/artigos/5-duvidas-de-quem-quer-iniciar-na-carreira-de-programacao?_gl=1*mr2av5*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODY4MjEuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): 5 dúvidas de quem quer iniciar na carreira de programação
 - [CURSO](https://cursos.alura.com.br/course/logica-programacao-mergulhe-programacao-javascript): Lógica de programação: mergulhe em programação com JavaScript
@@ -28,7 +28,7 @@ O **ONE**, uma parceria da [**Alura**](https://www.alura.com.br/) com a [**Oracl
 - [ARTIGO](https://www.alura.com.br/artigos/visualstudio-code-instalacao-teclas-de-atalho-plugins-e-integracoes?_gl=1*xjnve4*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODcyNjIuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): VisualStudio Code: instalação, teclas de atalho, plugins e integrações
 
 
-**Crie suas primeiras páginas web**
+**Criação das primeiras páginas web**
 
 - [ARTIGO](https://www.alura.com.br/artigos/html-css-e-js-definicoes?_gl=1*uy9dtn*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODcyNjIuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): HTML, CSS e Javascript, quais as diferenças?
 - [ARTIGO](https://www.alura.com.br/artigos/css?_gl=1*uy9dtn*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODcyNjIuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): CSS: o que é, como usar no HTML e um Guia para iniciar
@@ -39,16 +39,40 @@ O **ONE**, uma parceria da [**Alura**](https://www.alura.com.br/) com a [**Oracl
 - [CURSO](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos): HTML e CSS: trabalhando com responsividade e publicação de projetos
 - [ALURA+](https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858): Como Front-End utiliza o Figma
 
-**Ganhe experiência com Git**
+**Ganhando experiência com Git**
 
 - [ARTIGO](https://www.alura.com.br/artigos/o-que-e-git-github?_gl=1*78nvrc*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODcyNjIuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): Git e Github: O que são, Como Configurar e Primeiros Passos
 - [CURSO](https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos): Git e GitHub: compartilhando e colaborando em projetos
 - [ARTIGO](https://www.alura.com.br/artigos/nova-exigencia-do-git-de-autenticacao-por-token-o-que-e-o-que-devo-fazer?_gl=1*1wdqaos*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODcyNjIuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): Nova exigência do Git de autenticação por token, o que é e o que devo fazer?
 - [ARTIGO](https://www.alura.com.br/artigos/iniciando-repositorio-git?_gl=1*1wdqaos*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODcyNjIuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): Iniciando um repositório com Git
 
-**Encara os Challenges de Iniciante em Programação**
+**Challenge para iniciantes em programação**
 
-- [SITE](https://www.alura.com.br/challenges/challenge-one-logica?_gl=1*t2twll*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODcyNjIuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): Challenges - ONE
+- [SITE](https://www.alura.com.br/challenges/challenge-one-logica?_gl=1*t2twll*_ga*OTgyNjY4ODg3LjE3MDUyNjg1NDY.*_ga_1EPWSW3PCS*MTcwNzM4NjgyMC44MS4xLjE3MDczODcyNjIuMC4wLjA.*_fplc*ejJydGlYV1c1RXR0RFRTYWt6VkQxS29PbDVDNXN2M3UlMkJ6TExTVG0lMkY2VzMyJTJCQXd3b2VNcHFLSExMOUhFSjNhM3RoSFVsJTJCUzRKSjBPbTNBbkVUWEZ4Vm9WZERVUFQxJTJGckMlMkJiRklxMUxKcTQxc0FwUkQlMkYyQmxBMDRLMzJENlElM0QlM0Q.): Challenge - ONE
+
+- [Decodificador de Textos](https://mdsoare.github.io/decodificador/): Visite o site!
+
+
+**Entendendo a linguagem Java**
+
+- [CURSO](https://cursos.alura.com.br/course/java-criando-primeira-aplicacao): Java: criando a sua primeira aplicação
+- [ARTIGO](https://www.alura.com.br/artigos/java?_gl=1*1bllyb2*_ga*NjUzNTI4NjEzLjE3MTIwODAxNDE.*_ga_1EPWSW3PCS*MTcxNTQ3OTAzMi43My4xLjE3MTU0ODQxNDcuMC4wLjA.*_fplc*NnpQWUlrWGd2cFB1YWhNRnZ5cXNUSDlLVXRja3BjcEY5NUdOUENuRXN4a3RCM3JXd3JIdExMeTBHY0UlMkJyUVNFOTIxcVVZM1BKSkVHZ2R5b0dlVGRvTVRZUXhzZWFZcmZZZkp5byUyRlpQZUxaSUFKQ0NBRDVIeWlaeXQxU1l6USUzRCUzRA..): Java: o que é, linguagem e um Guia para iniciar na tecnologia
+- [PODCAST](https://cursos.alura.com.br/extra/hipsterstech/ecossistema-java-revisitado-hipsters-ponto-tech-313-a1597): Ecossistema Java revisitado – Hipsters Ponto Tech #313
+
+**Orientação a Objetos**
+
+- [CURSO](https://cursos.alura.com.br/course/java-aplicando-orientacao-objetos): Java: aplicando a Orientação a Objetos
+- [PODCAST](https://cursos.alura.com.br/extra/hipsterstech/techguide-orientacao-a-objetos-hipsters-ponto-tech-350-a2013): TechGuide: Orientação a Objetos – Hipsters Ponto Tech #350
+
+**Manipulação de listas, consumo de uma API e tratamento de exceções**
+
+- [CURSO](https://cursos.alura.com.br/course/java-listas-colecoes-dados): Java: trabalhando com listas e coleções de dados
+- [ARTIGO](https://www.alura.com.br/artigos/estrutura-dados-computacao-na-pratica-com-java?_gl=1*yde0pl*_ga*NjUzNTI4NjEzLjE3MTIwODAxNDE.*_ga_1EPWSW3PCS*MTcxNTQ3OTAzMi43My4xLjE3MTU0ODQxNDcuMC4wLjA.*_fplc*NnpQWUlrWGd2cFB1YWhNRnZ5cXNUSDlLVXRja3BjcEY5NUdOUENuRXN4a3RCM3JXd3JIdExMeTBHY0UlMkJyUVNFOTIxcVVZM1BKSkVHZ2R5b0dlVGRvTVRZUXhzZWFZcmZZZkp5byUyRlpQZUxaSUFKQ0NBRDVIeWlaeXQxU1l6USUzRCUzRA..): Estrutura de Dados: computação na prática com Java
+- [CURSO](https://cursos.alura.com.br/course/java-consumindo-api-gravando-arquivos-lidando-erros): Java: consumindo API, gravando arquivos e lidando com erros
+
+**Challenge Back End ONE**
+
+- [CURSO](https://cursos.alura.com.br/course/praticando-java-construindo-conversor-moedas): Praticando Java: Challenge conversor de moedas
 
 <br>
 
