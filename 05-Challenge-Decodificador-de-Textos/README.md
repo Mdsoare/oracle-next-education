@@ -4,6 +4,8 @@
 | ----- | ------ |
 | <img src=./assets/img/logo.svg alt="Logotipo da Alura" title="Logo da Alura"> | <img src=./assets/img/logo-one.webp alt="Logotipo da ONE" title="Logo da ONE"> |
 
+[**Clique aqui**](https://mdsoare.github.io/decodificador/) para ver o resultado!
+
 <br>
 
 Usando como base o [Trello](https://trello.com/b/EmUFmjCv/decodificador-de-texto-alura-challenges-oracle-one) e o [Figma](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=0-1&mode=design&t=B6ZgXYblW4880u2K-0) disponibilizados pela Alura, deve ser criada uma aplicação que criptografa textos. 
