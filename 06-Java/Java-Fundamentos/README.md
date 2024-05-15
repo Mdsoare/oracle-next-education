@@ -4,6 +4,11 @@
 
 Aprender os fundamentos da Linguagem Java e criar uma aplicação de exemplo. 
 
+- Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-Fundamentos/src);
+- Conteúdo teórico do curso: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-Fundamentos/aulas_teoricas);
+- Exercícios resolvidos: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-Fundamentos/src/Exercicios).
+- Curso Alura: [Clique aqui](https://cursos.alura.com.br/course/java-criando-primeira-aplicacao);
+
 ### Aula 01: O primeiro programa
 
 Nesta aula, os instrutores ensinaram como criar o primeiro programa em Java usando o **IntelliJ**. Eles mostraram como abrir o IntelliJ, criar um novo projeto, selecionar o nome e a pasta do projeto, e a opção de criar um repositório no GitHub. 
