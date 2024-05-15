@@ -91,7 +91,7 @@ No entanto, eles percebem que se o usuário digitar **-1** logo no início, a m�
 
 #### Exercícios:
 
-Ao logo dos cursos foram propostos exercícios de fixação. As possíveis soluções que desenvolvi podem ser vistas em: [Exercicios](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-Fundamentos/src/Exercicios).
+Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser visto em [Exercicios](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-Fundamentos/src/Exercicios).
 
 1. Crie um programa que exiba a mensagem "Hello world": `Hello.java`.
    
