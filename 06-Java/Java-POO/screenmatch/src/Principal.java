@@ -4,7 +4,7 @@ import br.com.alura.scrennmatch.modelos.Episodio;
 import br.com.alura.scrennmatch.modelos.Filme;
 import br.com.alura.scrennmatch.modelos.Serie;
 
-public class Main {
+public class Principal {
     public static void main(String[] args) {
 
         System.out.println("\n######### Filme #########");

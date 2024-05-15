@@ -1,47 +1,26 @@
 package br.com.alura.scrennmatch.exercicios;
 
 public class ContaBancaria {
-    /**
-     * @category Attribute Declaration
-     */
-    private int numeroConta;
-    private String titular;
-    private double saldo;
+    
+    protected int numeroConta;
+    protected String titular;
+    protected double saldo;
 
-    // GETTERS AND SETTERS
-
-    /**
-     * @return int return the numeroConta
-     */
-    public int getNumeroConta() {
-        return numeroConta;
+    public void depositar(double valor) {
+        saldo += valor;
+        System.out.println("Depósito de " + valor + " realizado. Saldo atual: " + saldo);
     }
 
-    /**
-     * @param numeroConta the numeroConta to set
-     */
-    public void setNumeroConta(int numeroConta) {
-        this.numeroConta = numeroConta;
+    public void sacar(double valor) {
+        if (valor <= saldo) {
+            saldo -= valor;
+            System.out.println("Saque de " + valor + " realizado. Saldo atual: " + saldo);
+        } else {
+            System.out.println("Saldo insuficiente para saque.");
+        }
     }
 
-    /**
-     * @return String return the titular
-     */
-    public String getTitular() {
-        return titular;
-    }
-
-    /**
-     * @param titular the titular to set
-     */
-    public void setTitular(String titular) {
-        this.titular = titular;
-    }
-
-    /**
-     * @return double return the saldo
-     */
-    public double getSaldo() {
-        return saldo;
+    public void consultarSaldo() {
+        System.out.println("Saldo atual: " + saldo);
     }
 }
