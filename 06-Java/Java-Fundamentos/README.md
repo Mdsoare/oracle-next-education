@@ -1,4 +1,4 @@
-# Curso Java: Criando sua primeira aplicação
+# Java: Criando sua primeira aplicação
 
 ## Objetivo
 
