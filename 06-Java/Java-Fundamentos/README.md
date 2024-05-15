@@ -1,4 +1,4 @@
-# Java: Criando sua primeira aplicação
+# Java Fundamentos: Criando a primeira aplicação
 
 ## Objetivo
 
