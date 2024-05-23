@@ -4,10 +4,10 @@
 
 Aprender os conceitos do paradigma de orientação a objetos, como classes, herança e interfaces, além de boas práticas de programação.
 
-- Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-POO/screenmatch/src);
-- Conteúdo teórico do curso: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-POO/aulas_teorias);
-- Exercícios resolvidos: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-POO/screenmatch/src/br/com/alura/scrennmatch/exercicios);
-- Desafio: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-POO/screenmatch/src/br/com/alura/scrennmatch/desafio);
+- Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/02-Java-POO/screenmatch/src);
+- Conteúdo teórico do curso: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/02-Java-POO/aulas_teoricas);
+- Exercícios resolvidos: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/02-Java-POO/screenmatch/src/br/com/alura/scrennmatch/exercicios);
+- Desafio: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/02-Java-POO/screenmatch/src/br/com/alura/scrennmatch/desafio);
 - Curso Alura: [Clique aqui](https://cursos.alura.com.br/course/java-aplicando-orientacao-objetos);
 - Podcast: [TechGuide: Orientação a Objetos – Hipsters Ponto Tech #350](https://cursos.alura.com.br/extra/hipsterstech/techguide-orientacao-a-objetos-hipsters-ponto-tech-350-a2013).
 
@@ -137,7 +137,7 @@ Foi apresentada a classe "`FiltroRecomendacao`" que utiliza o **polimorfismo** p
 
 #### Exercícios: 
 
-Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser visto em [Exercicios](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-POO/screenmatch/src/br/com/alura/scrennmatch/exercicios).
+Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser visto em [Exercicios](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/02-Java-POO/screenmatch/src/br/com/alura/scrennmatch/exercicios).
 
 1. Crie uma classe `MensagemOlaMundo` com um método que exibe "Olá, mundo!" no console:
 `MensagemOlaMundo.java` e `MensagemOlaMundoTeste.java`.
@@ -180,7 +180,7 @@ Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser
 
 
 #### Desafio:
-Foi proposto um desafio ao final do curso que pode ser visto em [Desafio](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-POO/screenmatch/src/br/com/alura/scrennmatch/desafio).
+Foi proposto um desafio ao final do curso que pode ser visto em [Desafio](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/02-Java-POO/screenmatch/src/br/com/alura/scrennmatch/desafio).
 
 Sobre o desafio:
 

@@ -4,9 +4,9 @@
 
 Aprender os fundamentos da Linguagem Java e criar uma aplicação de exemplo. 
 
-- Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-Fundamentos/src);
-- Conteúdo teórico do curso: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-Fundamentos/aulas_teoricas);
-- Exercícios resolvidos: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/Java-Fundamentos/src/Exercicios);
+- Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/01-Java-Fundamentos/src);
+- Conteúdo teórico do curso: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/01-Java-Fundamentos/aulas_teoricas);
+- Exercícios resolvidos: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/01-Java-Fundamentos/src/Exercicios);
 - Curso Alura: [Clique aqui](https://cursos.alura.com.br/course/java-criando-primeira-aplicacao);
 - Artigo: [Java: o que é, linguagem e um Guia para iniciar na tecnologia](https://www.alura.com.br/artigos/java?_gl=1*1w7wh4u*_ga*NjUzNTI4NjEzLjE3MTIwODAxNDE.*_ga_1EPWSW3PCS*MTcxNTc3ODg5Mi44NS4xLjE3MTU3ODQzODYuMC4wLjA.*_fplc*eXlaUmhKVlBuJTJGN3lodFd0c041TU1BcVZtSFM4ZW1ESFN0dUZmbnAwNGJEQW1hRG92b3l1bGpyVlVFdSUyQmZHc29uYWM1M0ZRMWJYREdkYWxBbGtpSm9jTXByMzVWeGVUYUYwdmREJTJCOG0xQlpFNHVWWmJURCUyQm9hVzZRVU40WUElM0QlM0Q.);
 - Podcast: [Ecossistema Java revisitado – Hipsters Ponto Tech #313](https://cursos.alura.com.br/extra/hipsterstech/ecossistema-java-revisitado-hipsters-ponto-tech-313-a1597).
