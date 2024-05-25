@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 import br.com.alura.scrennmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.scrennmatch.calculos.FiltroRecomendacao;
 import br.com.alura.scrennmatch.modelos.Episodio;
@@ -55,5 +57,24 @@ public class Principal {
         episodio.setSerie(serie1);
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
+
+        System.out.println("\n######### Filme #########");
+        Filme filme3 = new Filme();
+        filme3.setNome("Dogville");
+        filme3.setDuracaoEmMinutos(200);
+        filme3.setAnoDeLancamento(2003);
+        filme3.avalia(10);
+        
+        //ArrayList
+        ArrayList<Filme> listaDeFimnes = new ArrayList<>();
+        listaDeFimnes.add(filme1);
+        listaDeFimnes.add(filme2);
+        listaDeFimnes.add(filme3);
+        System.out.println("\n######### Lista de Filmes #########");
+        System.out.println("Tamanho da lista: " + listaDeFimnes.size());
+        System.out.println("O primeiro filme: " + listaDeFimnes.get(0).getNome());
+        System.out.println("Minha lista: " + listaDeFimnes);
+        System.out.println("toString do filme: " + listaDeFimnes.get(0).toString());
+
     }
 }
