@@ -1,7 +1,7 @@
 package br.com.alura.scrennmatch.modelos;
 
 public class Titulo {
-     /**
+    /**
      * @category Attribute Declaration
      */
     private String nome;
@@ -10,6 +10,12 @@ public class Titulo {
     private boolean incluidoNoPlano;
     private double somaDasavaliacoes;
     private int totalDeAvaliacoes;
+
+    // Constructor
+    public Titulo(String nome, int anoDeLancamento) {
+        this.setNome(nome);
+        this.setAnoDeLancamento(anoDeLancamento);
+    }
 
     // GETTERS AND SETTERS
     /**
