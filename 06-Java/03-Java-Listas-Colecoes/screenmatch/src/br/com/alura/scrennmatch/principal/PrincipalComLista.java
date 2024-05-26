@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 import br.com.alura.scrennmatch.modelos.Titulo;
 import br.com.alura.scrennmatch.modelos.Filme;
@@ -74,8 +75,12 @@ public class PrincipalComLista {
             Collections.sort(buscaPorArtista);
             buscaPorArtista.forEach(System.out::println);
 
-            System.out.println("\n############# Lista de títulos ordenada #############");
+            System.out.println("\n############# Lista ordenada de títulos por nome #############");
             Collections.sort(lista);
+            lista.forEach(System.out::println);
+
+            System.out.println("\n############# Lista ordenada de títulos por Ano #############");
+            lista.sort(Comparator.comparing(Titulo::getAnoDeLancamento));
             lista.forEach(System.out::println);
         }
     }
