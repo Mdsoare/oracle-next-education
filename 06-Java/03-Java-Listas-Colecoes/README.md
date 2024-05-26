@@ -130,7 +130,19 @@ Por fim, Eles aproveitaram para explicar sobre a declaração de variáveis util
 
 ### Aula 07: 
 
+A aula aborda a necessidade de organizar listas de objetos de acordo com algum critério, como ordenar uma lista de títulos em ordem alfabética.
 
+Para realizar a ordenação, é utilizado o método `Collections.sort()`, que ordena a lista.
+
+No entanto, o método `Collections.sort()` só funciona para listas de objetos que implementam a interface `Comparable`. Essa interface define um contrato de comparação entre objetos do mesmo tipo.
+
+Para tornar a classe `Titulo` comparável, os palestrantes implementam a interface `Comparable<Titulo>` e sobrescrevem o método `compareTo()`. Nesse método, eles delegam a comparação do nome do título com outro título, utilizando o método `compareTo()` da classe `String`.
+
+Após implementar a comparação na classe `Titulo`, eles testam a ordenação da lista de títulos e verificam que os títulos são ordenados corretamente em ordem alfabética.
+
+Os palestrantes destacam que implementar a interface `Comparable` é comum em várias entidades e modelos, mas não é obrigatório, sendo utilizado apenas quando há necessidade de definir um critério de comparação específico.
+
+Em resumo, a aula aborda a ordenação de uma lista de objetos em Java, utilizando a interface `Comparable` para definir um critério de comparação e o método `Collections.sort()` para realizar a ordenação.
 
 ### Aula 08: 
 
