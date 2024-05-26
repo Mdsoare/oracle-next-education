@@ -66,14 +66,14 @@ public class Principal {
         filme3.avalia(10);
 
         // ArrayList
-        ArrayList<Filme> listaDeFimnes = new ArrayList<>();
-        listaDeFimnes.add(filme1);
-        listaDeFimnes.add(filme2);
-        listaDeFimnes.add(filme3);
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(filme1);
+        listaDeFilmes.add(filme2);
+        listaDeFilmes.add(filme3);
         System.out.println("\n######### Lista de Filmes #########");
-        System.out.println("Tamanho da lista: " + listaDeFimnes.size());
-        System.out.println("O primeiro filme: " + listaDeFimnes.get(0).getNome());
-        System.out.println("Minha lista: " + listaDeFimnes);
-        System.out.println("toString do filme: " + listaDeFimnes.get(0).toString());
+        System.out.println("Tamanho da lista: " + listaDeFilmes.size());
+        System.out.println("O primeiro filme: " + listaDeFilmes.get(0).getNome());
+        System.out.println("Minha lista: " + listaDeFilmes);
+        System.out.println("toString do filme: " + listaDeFilmes.get(0).toString());
     }
 }
