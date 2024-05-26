@@ -174,3 +174,13 @@ Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser
 9. Modifique a classe `Produto` para incluir um construtor que aceite parâmetros para inicializar os atributos. Em seguida, crie objetos Produto utilizando esse novo construtor: `Produto.java` e `ProdutoTeste.java`.
 
 10. Crie uma classe `ProdutoPerecivel` que herde de `Produto`. Adicione um atributo dataValidade e um construtor que utilize o construtor da classe mãe (super) para inicializar os atributos herdados. Crie um objeto `ProdutoPerecivel` e imprima seus valores: `Produto.java` , `ProdutoPerecivel.java` e `ProdutoTeste.java`.
+    
+11. Crie um ArrayList de strings e utilize um loop foreach para percorrer e imprimir cada elemento da lista: `Loop.java`
+
+12. Crie uma classe `Animal` e uma classe `Cachorro` que herda de `Animal`. Em seguida, crie um objeto da classe Cachorro e faça o casting para a classe `Animal`: `Animal.java`, `AnimalCachorro.java` e `AnimalTeste.java`.
+
+13. Modifique o Exercício 2 para incluir uma verificação usando `instanceof` para garantir que o objeto seja do tipo correto antes de fazer o casting: `Animal.java`, `AnimalCachorro.java` e `AnimalTeste.java`.
+    
+14. Crie uma classe `Produto` com propriedades como nome e preço. Em seguida, crie uma lista de produtos e utilize um loop para calcular e imprimir o preço médio dos produtos: `ProdutoTeste.java`.
+
+15. Crie uma interface `Forma` com um método `calcularArea()`. Implemente a interface em duas classes, por exemplo, `Circulo` e `Quadrado`. Em seguida, crie uma lista de formas (objetos da interface Forma) e utilize um loop para calcular e imprimir a área de cada forma: `Forma.java`, `FormaCirculo.java`, `FormaQuadrado.java` e `FormaTeste.java`. 

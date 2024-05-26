@@ -45,5 +45,7 @@ public class ProdutoTeste {
         System.out.println("Quantidade: " + produtoPerecivel.quantidade);
         System.out.println("Data de Validade: " + produtoPerecivel.dataValidade);
 
+        listaDeProdutor.forEach(System.out::println);
+
     }
 }
