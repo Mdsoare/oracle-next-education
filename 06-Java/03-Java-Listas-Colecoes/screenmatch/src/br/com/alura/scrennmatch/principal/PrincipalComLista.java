@@ -22,12 +22,37 @@ public class PrincipalComLista {
 
         for (Titulo item : lista) {
             System.out.println(item.getNome());
-            try {
+
+            if (item instanceof Filme) {
                 Filme filme = (Filme) item;
                 System.out.println("Classificação: " + filme.getClassificacao());
-            } catch (Exception e) {
-                System.out.println("Erro ao tentar definir uma série como filme!"); //+ e.getMessage());
             }
+
+            /*
+             * No Java 14:
+             * if (item instanceof Filme filme) {
+             * System.out.println("Classificação: " + filme.getClassificacao());
+             * }
+             */
+
+            /*
+             * No Java 17:
+             * if (item instanceof Filme filme && filme.getClassificacao() > 2) {
+             * System.out.println("Classificação: " + filme.getClassificacao());
+             * }
+             */
+
+            /*
+             * Outra forma de tratamento de erro seria com try-catch:
+             * 
+             * try {
+             * Filme filme = (Filme) item;
+             * System.out.println("Classificação: " + filme.getClassificacao());
+             * } catch (Exception e) {
+             * System.out.println("Erro ao tentar definir uma série como filme!"); //+
+             * e.getMessage());
+             * }
+             */
 
         }
     }
