@@ -158,3 +158,11 @@ Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser
 5. Imprima a primeira pessoa da lista utilizando o método get: `PessoaTeste.java`.
 
 6. Imprima a lista completa: `PessoaTeste.java`.
+
+7. Crie uma classe `Produto` com atributos como nome, preco, e quantidade. Em seguida, crie uma lista de objetos Produto utilizando a classe `ArrayList`. Adicione alguns produtos, imprima o tamanho da lista e recupere um produto pelo índice: `Produto.java` e `ProdutoTeste.java`.
+   
+8. Implemente o método `toString()` na classe `Produto` para retornar uma representação em texto do objeto. Em seguida, imprima a lista de produtos utilizando o método `System.out.println()`: `Produto.java` e `ProdutoTeste.java`.
+
+9. Modifique a classe `Produto` para incluir um construtor que aceite parâmetros para inicializar os atributos. Em seguida, crie objetos Produto utilizando esse novo construtor: `Produto.java` e `ProdutoTeste.java`.
+
+10. Crie uma classe `ProdutoPerecivel` que herde de `Produto`. Adicione um atributo dataValidade e um construtor que utilize o construtor da classe mãe (super) para inicializar os atributos herdados. Crie um objeto `ProdutoPerecivel` e imprima seus valores: `Produto.java` , `ProdutoPerecivel.java` e `ProdutoTeste.java`.
