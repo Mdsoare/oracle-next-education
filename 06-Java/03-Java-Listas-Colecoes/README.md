@@ -114,7 +114,11 @@ Ampliando o conceito de **herança** criamos o construtor na classe `Titulo` e a
 
 ### Aula 05: 
 
+Nesta aula, os instrutores discutiram sobre a criação de uma nova classe chamada `PrincipalComListas` e a utilização de listas para armazenar filmes e séries.
 
+Eles mostraram como adicionar elementos à lista e como percorrer a lista utilizando o loop `for-each`. Também abordaram a importância de especificar o tipo de dados que a lista irá armazenar e como lidar com a necessidade de acessar métodos específicos de determinados tipos de objetos presentes na lista.
+
+Os instrutores mencionaram o erro de tentar tratar uma série como se fosse um filme. 
 
 ### Aula 06: 
 
