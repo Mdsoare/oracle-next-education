@@ -59,7 +59,7 @@ Destacou-se a importância de estar atento ao usar o método `get()` para obter 
 
 Por fim, os instrutores ressaltaram a importância de consultar a documentação do Java, como o **Javadoc**, para obter informações detalhadas sobre as classes e métodos utilizados, o que pode ajudar a entender melhor o comportamento dos métodos e a utilizar corretamente as classes do Java.
 
-### Aula 03: 
+### Aula 03:  Construindo objetos com valores
 
 Os instrutores discorrem sobre o risco de se generalizar demais o código com a classe `Object`. Também é a presentado o conceito de `Construtor`. ***Construtores são responsáveis por criar novos objetos, alocando espaço na memória e definindo seus atributos iniciais.Um `construtor` não é um método, possui uma sintaxe específica e não retorna nada.***
 
@@ -84,7 +84,7 @@ public Filme(String nome) {
 ```
 O conceito de construtores é muito utilizado em Java, aparecendo em diversos contextos como a criação de objetos `Scanner` e a recuperação de filmes de um arquivo JSON. 
 
-### Aula 04: 
+### Aula 04: Definindo outros construtores
 
 Ampliando o conceito de **herança** criamos o construtor na classe `Titulo` e assim as classes filhas herdam o construtor através da palavra reservada `super`:
 
@@ -112,7 +112,7 @@ Ampliando o conceito de **herança** criamos o construtor na classe `Titulo` e a
     }
 ```
 
-### Aula 05: 
+### Aula 05: Tipos diferentes de objetos na lista
 
 Nesta aula, os instrutores discutiram sobre a criação de uma nova classe chamada `PrincipalComListas` e a utilização de listas para armazenar filmes e séries.
 
@@ -120,7 +120,7 @@ Eles mostraram como adicionar elementos à lista e como percorrer a lista utiliz
 
 Os instrutores mencionaram o erro de tentar tratar uma série como se fosse um filme. 
 
-### Aula 06: 
+### Aula 06: Identificando o objeto
 
 Nesta aula, os instrutores discutiram sobre como resolver um problema encontrado na aula anterior, onde a lista pode conter tanto filmes quanto séries. A solução apresentada envolve o uso do operador `instanceof` para verificar se o item é uma instância da classe `Filme`. Se for, eles mostram a classificação do filme.
 
@@ -128,28 +128,87 @@ Foi ressaltado que essa não é a forma mais elegante de resolver o problema, ma
 
 Por fim, Eles aproveitaram para explicar sobre a declaração de variáveis utilizando o `var` e como isso pode gerar confusão em relação à cópia de objetos. Esclareceram que, quando se trata de objetos em Java, ***as variáveis são referências e não cópias do objeto***. Portanto, ao fazer o casting no código, não estamos transformando o objeto, mas sim a forma como nos referenciamos a ele.
 
-### Aula 07: 
+### Aula 07: Ordenando a lista
 
-A aula aborda a necessidade de organizar listas de objetos de acordo com algum critério, como ordenar uma lista de títulos em ordem alfabética.
-
-Para realizar a ordenação, é utilizado o método `Collections.sort()`, que ordena a lista.
-
-No entanto, o método `Collections.sort()` só funciona para listas de objetos que implementam a interface `Comparable`. Essa interface define um contrato de comparação entre objetos do mesmo tipo.
+A aula aborda a necessidade de organizar listas de objetos de acordo com algum critério, como ordenar uma lista de títulos em ordem alfabética. Para realizar a ordenação, é utilizado o método `Collections.sort()`, que ordena a lista. No entanto, o método `Collections.sort()` só funciona para listas de objetos que implementam a interface `Comparable`. Essa interface define um contrato de comparação entre objetos do mesmo tipo.
 
 Para tornar a classe `Titulo` comparável, os palestrantes implementam a interface `Comparable<Titulo>` e sobrescrevem o método `compareTo()`. Nesse método, eles delegam a comparação do nome do título com outro título, utilizando o método `compareTo()` da classe `String`.
 
+**Titulo:**
+```
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
+    }
+```
+
 Após implementar a comparação na classe `Titulo`, eles testam a ordenação da lista de títulos e verificam que os títulos são ordenados corretamente em ordem alfabética.
+
+**PrincipalComLista:**
+```
+ArrayList<String> buscaPorArtista = new ArrayList<>();
+    buscaPorArtista.add("Adan Sandler");
+    buscaPorArtista.add("Demi Moore");
+    buscaPorArtista.add("Will Smith");
+    buscaPorArtista.add("Angelina Jolie");
+    buscaPorArtista.add("Denzel Washington");
+    buscaPorArtista.add("Jennifer Lawrence");
+    buscaPorArtista.add("Robert Downey Jr.");
+    buscaPorArtista.add("Emma Stone");
+    buscaPorArtista.add("Nicolas Cage");
+    buscaPorArtista.add("Salma Hayek");
+    buscaPorArtista.add("Tom Hanks");
+
+    System.out.println("\nTamanho da lista: " + buscaPorArtista.size());
+    Collections.sort(buscaPorArtista);
+    buscaPorArtista.forEach(System.out::println);
+```
 
 Os palestrantes destacam que implementar a interface `Comparable` é comum em várias entidades e modelos, mas não é obrigatório, sendo utilizado apenas quando há necessidade de definir um critério de comparação específico.
 
 Em resumo, a aula aborda a ordenação de uma lista de objetos em Java, utilizando a interface `Comparable` para definir um critério de comparação e o método `Collections.sort()` para realizar a ordenação.
 
-### Aula 08: 
+### Aula 08: Definindo critérios de ordenação
 
+Nesta aula, os instrutores discutiram sobre a implementação do método` toString()` na classe `Serie` para melhorar a exibição dos dados. Eles mostraram como concatenar o texto "Série:" com o nome e o ano de lançamento de cada série. Em seguida, eles abordaram a possibilidade de incluir o método `toString()` na classe mãe `Titulo`, o que tornaria a implementação um pouco mais complexa, mas permitiria uma solução mais genérica para a exibição dos dados.
 
+Foi mencionado também a possibilidade de ordenar o catálogo pelo ano de lançamento em vez do nome. No entanto, eles perceberam que alterar o método `compareTo()` afetaria a ordenação por nome. Então, eles introduziram o conceito de `Comparator`, que é uma interface que permite definir um critério de comparação separado da classe principal.
 
-### Aula 09: 
+Eles mostraram como usar o método `sort()` em conjunto com o `Comparator.comparing()` para ordenar a lista de títulos pelo ano de lançamento. Eles explicaram a sintaxe do `::` para referenciar métodos e como essa abordagem é mais moderna e simplificada em comparação com a criação de uma classe comparadora separada.
 
+```
+    lista.sort(Comparator.comparing(Titulo::getAnoDeLancamento));
+    lista.forEach(System.out::println);
+```
+
+No final, eles executaram o código e mostraram o resultado da ordenação por ano de lançamento. Essa discussão destacou a importância de tomar decisões de design adequadas ao desenvolver um sistema, como onde colocar determinados métodos, como encapsular a lógica e como proteger as informações. Também mostrou a flexibilidade e a sintaxe moderna do Java para lidar com operações de ordenação e comparação de objetos.
+
+### Aula 09: Utilizando a interface List
+
+A aula abordou o uso de coleções de dados no Java, com foco especial no `ArrayList` e na interface `List`.
+Foi explicado que o `ArrayList` é uma implementação específica da interface `List`, e que é uma boa prática programar utilizando a interface `List`, pois isso permite maior flexibilidade e reutilização de código.
+
+```
+    List<String> buscaPorArtista = new LinkedList<>();
+        buscaPorArtista.add("Adan Sandler");
+        buscaPorArtista.add("Demi Moore");
+        buscaPorArtista.add("Will Smith");
+        buscaPorArtista.add("Angelina Jolie");
+        buscaPorArtista.add("Denzel Washington");
+        buscaPorArtista.add("Jennifer Lawrence");
+        buscaPorArtista.add("Robert Downey Jr.");
+        buscaPorArtista.add("Emma Stone");
+        buscaPorArtista.add("Nicolas Cage");
+        buscaPorArtista.add("Salma Hayek");
+        buscaPorArtista.add("Tom Hanks");
+
+        System.out.println("\nTamanho da lista: " + buscaPorArtista.size());
+        Collections.sort(buscaPorArtista);
+         buscaPorArtista.forEach(System.out::println);
+```
+
+Outras interfaces importantes, como `Collection`, `Set` e `Map`, e suas implementações, como `HashSet` e `HashMap`, também foram mencionadas. Os instrutores ressaltaram a importância de conhecer essas estruturas de dados, pois elas são amplamente utilizadas em bibliotecas e pacotes do Java.
+Eles também destacaram a importância do uso de interfaces e encapsulamento na programação orientada a objetos.
 
 
 ### Aula 10: 
