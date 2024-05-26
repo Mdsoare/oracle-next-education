@@ -86,7 +86,31 @@ O conceito de construtores é muito utilizado em Java, aparecendo em diversos co
 
 ### Aula 04: 
 
+Ampliando o conceito de **herança** criamos o construtor na classe `Titulo` e assim as classes filhas herdam o construtor através da palavra reservada `super`:
 
+`Titulo`:
+```
+    // Constructor
+    public Titulo(String nome, int anoDeLancamento) {
+        this.setNome(nome);
+        this.setAnoDeLancamento(anoDeLancamento);
+    }
+```
+
+`Filme`:
+```
+    // Constructor
+    public Filme(String nome, int anoDeLancamento) {
+        super(nome, anoDeLancamento);
+    }
+```
+
+`Serie`:
+```
+    public Serie(String nome, int anoDeLancamento) {
+        super(nome, anoDeLancamento);
+    }
+```
 
 ### Aula 05: 
 
