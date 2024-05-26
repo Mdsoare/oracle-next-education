@@ -1,6 +1,6 @@
 package br.com.alura.scrennmatch.modelos;
 
-public class Titulo {
+public class Titulo implements Comparable<Titulo> {
     /**
      * @category Attribute Declaration
      */
@@ -134,4 +134,8 @@ public class Titulo {
         this.totalDeAvaliacoes = totalDeAvaliacoes;
     }
 
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
+    }
 }

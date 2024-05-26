@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 import br.com.alura.scrennmatch.modelos.Titulo;
 import br.com.alura.scrennmatch.modelos.Filme;
@@ -54,7 +55,28 @@ public class PrincipalComLista {
              * }
              */
 
+            System.out.println("\n");
+
+            ArrayList<String> buscaPorArtista = new ArrayList<>();
+            buscaPorArtista.add("Adan Sandler");
+            buscaPorArtista.add("Demi Moore");
+            buscaPorArtista.add("Will Smith");
+            buscaPorArtista.add("Angelina Jolie");
+            buscaPorArtista.add("Denzel Washington");
+            buscaPorArtista.add("Jennifer Lawrence");
+            buscaPorArtista.add("Robert Downey Jr.");
+            buscaPorArtista.add("Emma Stone");
+            buscaPorArtista.add("Nicolas Cage");
+            buscaPorArtista.add("Salma Hayek");
+            buscaPorArtista.add("Tom Hanks");
+
+            System.out.println("\nTamanho da lista: " + buscaPorArtista.size());
+            Collections.sort(buscaPorArtista);
+            buscaPorArtista.forEach(System.out::println);
+
+            System.out.println("\n############# Lista de títulos ordenada #############");
+            Collections.sort(lista);
+            lista.forEach(System.out::println);
         }
     }
-
 }
