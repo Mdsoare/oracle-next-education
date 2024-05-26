@@ -5,6 +5,11 @@ import br.com.alura.scrennmatch.calculos.Classificavel;
 public class Filme extends Titulo implements Classificavel {
     private String diretor;
 
+    //Criando construtor
+    public Filme(String nome) {
+        this.setNome(nome);
+    }
+
     /**
      * @return String return the diretor
      */

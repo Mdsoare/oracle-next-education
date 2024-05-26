@@ -10,8 +10,8 @@ public class Principal {
     public static void main(String[] args) {
 
         System.out.println("\n######### Filme #########");
-        Filme filme1 = new Filme();
-        filme1.setNome("The Matrix");
+        Filme filme1 = new Filme("The Matrix");
+        //filme1.setNome("The Matrix");
         filme1.setAnoDeLancamento(1999);
         filme1.setDuracaoEmMinutos(135);
         filme1.setIncluidoNoPlano(true);
@@ -24,8 +24,8 @@ public class Principal {
         System.out.println("Duração do Filme: " + filme1.getDuracaoEmMinutos());
 
         System.out.println("\n######### Filme #########");
-        Filme filme2 = new Filme();
-        filme2.setNome("O Poderoso Chefão");
+        Filme filme2 = new Filme("O Poderoso Chefão");
+        //filme2.setNome("O Poderoso Chefão");
         filme2.setAnoDeLancamento(1970);
         filme2.setDuracaoEmMinutos(180);
         filme2.setIncluidoNoPlano(true);
@@ -59,8 +59,8 @@ public class Principal {
         filtro.filtra(episodio);
 
         System.out.println("\n######### Filme #########");
-        Filme filme3 = new Filme();
-        filme3.setNome("Dogville");
+        Filme filme3 = new Filme("Dogville");
+        //filme3.setNome("Dogville");
         filme3.setDuracaoEmMinutos(200);
         filme3.setAnoDeLancamento(2003);
         filme3.avalia(10);
@@ -75,6 +75,5 @@ public class Principal {
         System.out.println("O primeiro filme: " + listaDeFimnes.get(0).getNome());
         System.out.println("Minha lista: " + listaDeFimnes);
         System.out.println("toString do filme: " + listaDeFimnes.get(0).toString());
-
     }
 }
