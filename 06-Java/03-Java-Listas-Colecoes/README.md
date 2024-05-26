@@ -122,7 +122,11 @@ Os instrutores mencionaram o erro de tentar tratar uma série como se fosse um f
 
 ### Aula 06: 
 
+Nesta aula, os instrutores discutiram sobre como resolver um problema encontrado na aula anterior, onde a lista pode conter tanto filmes quanto séries. A solução apresentada envolve o uso do operador `instanceof` para verificar se o item é uma instância da classe `Filme`. Se for, eles mostram a classificação do filme.
 
+Foi ressaltado que essa não é a forma mais elegante de resolver o problema, mas que é importante entender por que ainda existe muito código legado que utiliza essa abordagem. Também mencionou que nas versões mais recentes do Java, como a versão 14, é possível declarar a variável do filme diretamente na linha do `if`, sem a necessidade de fazer o casting. Além disso, eles mostraram como é possível fazer verificações adicionais utilizando operadores, como verificar se a classificação do filme é maior que 2 antes de mostrá-la. 
+
+Por fim, Eles aproveitaram para explicar sobre a declaração de variáveis utilizando o `var` e como isso pode gerar confusão em relação à cópia de objetos. Esclareceram que, quando se trata de objetos em Java, ***as variáveis são referências e não cópias do objeto***. Portanto, ao fazer o casting no código, não estamos transformando o objeto, mas sim a forma como nos referenciamos a ele.
 
 ### Aula 07: 
 
