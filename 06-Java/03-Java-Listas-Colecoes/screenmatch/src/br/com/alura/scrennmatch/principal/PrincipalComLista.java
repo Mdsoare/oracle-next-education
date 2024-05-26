@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
 
 import br.com.alura.scrennmatch.modelos.Titulo;
 import br.com.alura.scrennmatch.modelos.Filme;
@@ -58,7 +60,7 @@ public class PrincipalComLista {
 
             System.out.println("\n");
 
-            ArrayList<String> buscaPorArtista = new ArrayList<>();
+           List<String> buscaPorArtista = new LinkedList<>();
             buscaPorArtista.add("Adan Sandler");
             buscaPorArtista.add("Demi Moore");
             buscaPorArtista.add("Will Smith");
