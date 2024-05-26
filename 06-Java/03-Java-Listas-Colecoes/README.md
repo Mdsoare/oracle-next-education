@@ -61,7 +61,28 @@ Por fim, os instrutores ressaltaram a importância de consultar a documentação
 
 ### Aula 03: 
 
+Os instrutores discorrem sobre o risco de se generalizar demais o código com a classe `Object`. Também é a presentado o conceito de `Construtor`. ***Construtores são responsáveis por criar novos objetos, alocando espaço na memória e definindo seus atributos iniciais.Um `construtor` não é um método, possui uma sintaxe específica e não retorna nada.***
 
+Construtores são importantes pois alguns atributos precisam ser definidos no momento da criação do objeto, assim como acontece ao criar uma conexão com um banco de dados. Os construtores podem receber parâmetros para inicializar os atributos do objeto. 
+
+No exemplo, o construtor da classe Filme recebe o nome do filme como parâmetro. Ao criar um construtor personalizado, é necessário manter o construtor padrão caso queira continuar utilizando-o. A decisão de ter um ou mais construtores depende da regra de negócio. Recomenda-se não adicionar construtores desnecessários.
+
+```
+public Filme(String nome) {
+    this.setNome(nome);
+}
+```
+**Nota:** Um construtor deve ter obrigatoriamente o nome da classe e não tem retorno algum! Se desejarmos manter o construtor padrão, basta incluir:
+
+```
+public Filme() {
+}
+
+public Filme(String nome) {
+    this.setNome(nome);
+}
+```
+O conceito de construtores é muito utilizado em Java, aparecendo em diversos contextos como a criação de objetos `Scanner` e a recuperação de filmes de um arquivo JSON. 
 
 ### Aula 04: 
 
