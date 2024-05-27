@@ -210,18 +210,6 @@ Foi explicado que o `ArrayList` é uma implementação específica da interface 
 Outras interfaces importantes, como `Collection`, `Set` e `Map`, e suas implementações, como `HashSet` e `HashMap`, também foram mencionadas. Os instrutores ressaltaram a importância de conhecer essas estruturas de dados, pois elas são amplamente utilizadas em bibliotecas e pacotes do Java.
 Eles também destacaram a importância do uso de interfaces e encapsulamento na programação orientada a objetos.
 
-
-### Aula 10: 
-
-
-
-### Aula 11: 
-
-
-### Aula 12: 
-
-
-
 #### Exercícios: 
 
 Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser visto em [Exercicios](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/03-Java-Listas-Colecoes/screenmatch/src/br/com/alura/scrennmatch/exercicios).
