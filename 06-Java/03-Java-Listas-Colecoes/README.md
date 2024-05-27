@@ -7,6 +7,7 @@ Aprimoramento os conhecimentos em Java, adquirindo habilidades mais avançadas, 
 - Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/03-Java-Listas-Colecoes/screenmatch/src/br/com/alura/scrennmatch/principal);
 - Conteúdo teórico do curso: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/03-Java-Listas-Colecoes/aulas_teoricas);
 - Exercícios resolvidos: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/03-Java-Listas-Colecoes/screenmatch/src/br/com/alura/scrennmatch/exercicios);
+- Desafio: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/03-Java-Listas-Colecoes/screenmatch/src/br/com/alura/scrennmatch/desafio);
 - Curso Alura: [Clique aqui](https://cursos.alura.com.br/course/java-listas-colecoes-dados);
 - Artigo: [Estrutura de Dados: computação na prática com Java](https://www.alura.com.br/artigos/estrutura-dados-computacao-na-pratica-com-java?_gl=1*18u67li*_ga*NjUzNTI4NjEzLjE3MTIwODAxNDE.*_ga_1EPWSW3PCS*MTcxNjQ2Mjg0OC45Ni4xLjE3MTY0NjQzMjIuMC4wLjA.*_fplc*b1VnUXNvUzdnMk8lMkZJakJrS0lGd1NDZFJrTzR0Q044cWg4WiUyQjJXRXpKd3NzRmVGUFNoJTJGVU1TR3pydXU3RU5Gem5iQlJ2Zkg2eTJaUndNQnVZT0pBZ1YzOUdQaHRLRzZ6bmtGeW0xVE1QUFRKQndMWmN5Qm5jV3Q5S3R0JTJCdmclM0QlM0Q.).
 
@@ -253,3 +254,11 @@ Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser
 19. Crie uma lista utilizando a interface `List` e instancie-a tanto como `ArrayList` quanto como `LinkedList`. Adicione elementos e imprima a lista, mostrando que é possível trocar facilmente a implementação: `Titulo.java`, `TituloTeste.java`.
 
 20. Modifique o Exercício 19 para declarar a variável de lista como a interface `List`, demonstrando o uso de **polimorfismo**: `Titulo.java`, `TituloTeste.java`.
+
+#### Desafio:
+
+Foi proposto um desafio ao final do curso que pode ser visto em [Desafio](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/03-Java-Listas-Colecoes/screenmatch/src/br/com/alura/scrennmatch/desafio).
+
+Sobre o desafio:
+
+Criar uma nova aplicação, para exercitar os conhecimentos em construtores, listas, ordenação e todos os outros conceitos prévios que já foram praticados ao longo dos cursos da formação.
