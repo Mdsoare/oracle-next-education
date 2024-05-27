@@ -204,7 +204,7 @@ Foi explicado que o `ArrayList` é uma implementação específica da interface 
 
         System.out.println("\nTamanho da lista: " + buscaPorArtista.size());
         Collections.sort(buscaPorArtista);
-         buscaPorArtista.forEach(System.out::println);
+        buscaPorArtista.forEach(System.out::println);
 ```
 
 Outras interfaces importantes, como `Collection`, `Set` e `Map`, e suas implementações, como `HashSet` e `HashMap`, também foram mencionadas. Os instrutores ressaltaram a importância de conhecer essas estruturas de dados, pois elas são amplamente utilizadas em bibliotecas e pacotes do Java.
@@ -255,3 +255,13 @@ Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser
 14. Crie uma classe `Produto` com propriedades como nome e preço. Em seguida, crie uma lista de produtos e utilize um loop para calcular e imprimir o preço médio dos produtos: `ProdutoTeste.java`.
 
 15. Crie uma interface `Forma` com um método `calcularArea()`. Implemente a interface em duas classes, por exemplo, `Circulo` e `Quadrado`. Em seguida, crie uma lista de formas (objetos da interface Forma) e utilize um loop para calcular e imprimir a área de cada forma: `Forma.java`, `FormaCirculo.java`, `FormaQuadrado.java` e `FormaTeste.java`. 
+    
+16. Crie uma lista de números inteiros e utilize o método `Collections.sort` para ordená-la em ordem crescente. Em seguida, imprima a lista ordenada: `ListaOrdenada.java`.
+
+17. Crie uma classe `Titulo` com um atributo nome do tipo String. Implemente a interface `Comparable` na classe para que seja possível ordenar uma lista de objetos Titulo: `Titulo.java`.
+
+18. No Exercício 17, crie alguns objetos da classe `Titulo` e adicione-os a uma lista. Utilize o método `Collections.sort` para ordenar a lista e, em seguida, imprima os títulos ordenados: `Titulo.java`, `TituloTeste.java`.
+
+19. Crie uma lista utilizando a interface `List` e instancie-a tanto como `ArrayList` quanto como `LinkedList`. Adicione elementos e imprima a lista, mostrando que é possível trocar facilmente a implementação: `Titulo.java`, `TituloTeste.java`.
+
+20. Modifique o Exercício 19 para declarar a variável de lista como a interface `List`, demonstrando o uso de **polimorfismo**: `Titulo.java`, `TituloTeste.java`.
