@@ -91,8 +91,13 @@ private int AnoDeLancamento;
 
 Por fim, os instrutores discutem sobre a melhor forma de lidar com a **desserialização** de JSON em objetos, considerando a possibilidade de diferentes APIs retornarem JSONs com nomes de campos diferentes. Eles sugerem a necessidade de pensar em alternativas para melhorar o código e lidar com essa situação.
 
+### Aula 06: Outra estrutura para representar os dados
 
-### Aula 06: 
+Nesta aula, os instrutores discutiram sobre a criação de uma classe `Record` e como utilizá-la para realizar a conversão personalizada de dados. O `Record` é uma estrutura nova e mais simples do Java, que permite declarar apenas o cabeçalho dos atributos, tornando a classe imutável.
+
+Eles criaram a classe `TituloOmdb` com os atributos `title`, `year` e `runtime` para representar os dados de um JSON. Utilizaram o `GsonBuilder()` para configurar a nomenclatura dos campos do JSON, usando o `FieldNamingPolicy.UPPER_CAMEL_CASE` para fazer a correspondência correta entre os campos do JSON e os atributos do `TituloOmdb`. Após a conversão do JSON para o objeto `TituloOmdb`, eles mostraram como criar um objeto Titulo que possui mais atributos e métodos, usando um construtor que recebe um objeto `TituloOmdb` e faz o "de-para" dos dados. Eles sobrescreveram o método `toString()` na classe Titulo para imprimir o objeto corretamente. Identificaram um problema quando o ano de lançamento do filme possui um traço no final, causando uma exceção no método `Integer.valueOf()`, que será abordado em aulas futuras.
+
+Em resumo, a aula mostrou como utilizar a classe `Record` para representar os dados de um JSON de forma mais simples e imutável, e como converter esses dados para um objeto mais completo, lidando com possíveis problemas na conversão.
 
 ### Aula 07: 
 
