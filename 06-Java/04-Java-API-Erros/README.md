@@ -125,7 +125,15 @@ Os instrutores mostraram como adicionar múltiplos blocos `catch` para tratar di
 
 Eles discutiram a diferença entre erros e exceções, explicando que as exceções são previstas, tratáveis e antecipadas, enquanto os erros são problemas mais graves e não podem ser facilmente tratados. Eles enfatizaram a importância de tratar as exceções sempre que possível.
 
-### Aula 09: 
+### Aula 09: Criando nossa própria exceção
+
+Nesta aula, os instrutores discutem sobre como lidar com exceções em um programa de busca de filmes. Eles identificam um problema na busca de filmes que possuem espaços no nome e discutem diferentes maneiras de solucioná-lo, optando por substituir os espaços por sinais de mais na URL.
+
+Ao executar o programa, eles identificam um erro na duração do filme e, posteriormente, um problema na conversão do ano de lançamento. Para tratar esse último problema, eles decidem criar uma exceção personalizada chamada `ErroDeConversaoDeAnoException`.
+
+Eles implementam a classe `ErroDeConversaoDeAnoException`, que estende a classe `RuntimeException` e possui um atributo `mensagem` e um método `getMessage()`. No código, eles substituem o bloco `catch` genérico pelo `catch` da exceção `ErroDeConversaoDeAnoException` e imprimem a mensagem de erro.
+
+Eles discutem a importância de utilizar o `catch` para tratar exceções de forma mais elaborada, resolvendo o problema de fato, e de pensar antecipadamente sobre a modelagem do programa para prevenir situações de conversão e busca.
 
 
 #### Exercícios: 
@@ -140,9 +148,15 @@ Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser
 
 4. Crie uma classe `Pessoa` usando o conceito de Record em Java, com atributos como nome, idade e cidade. Em seguida, implemente um programa que utiliza a biblioteca Gson para converter um JSON representando uma pessoa em um objeto do tipo Pessoa: `ConversaoJsonParaObjeto.java`.
 
-5.  Modifique o programa do Exercício anterior para permitir a conversão de um JSON mesmo se alguns campos estiverem ausentes ou se houver campos adicionais não representados no objeto Pessoa. Consulte a documentação da biblioteca Gson para flexibilizar a conversão: `ConversaoJsonParaObjetoFlex.java`
+5.  Modifique o programa do Exercício anterior para permitir a conversão de um JSON mesmo se alguns campos estiverem ausentes ou se houver campos adicionais não representados no objeto Pessoa. Consulte a documentação da biblioteca Gson para flexibilizar a conversão: `ConversaoJsonParaObjetoFlex.java`.
 
-6. Crie uma classe `Livro` que contenha atributos como título, autor e um objeto representando a editora. Em seguida, implemente um programa que utiliza a biblioteca Gson para converter um JSON aninhado representando um livro em um objeto do tipo Livro: `ConversaoJsonAninhadoParaObjeto.java`
+6. Crie uma classe `Livro` que contenha atributos como título, autor e um objeto representando a editora. Em seguida, implemente um programa que utiliza a biblioteca Gson para converter um JSON aninhado representando um livro em um objeto do tipo Livro: `ConversaoJsonAninhadoParaObjeto.java`.
+
+7. Crie um programa simples que solicita dois números ao usuário e realiza a divisão do primeiro pelo segundo. Utilize o bloco try/catch para tratar a exceção que pode ocorrer caso o usuário informe 0 como divisor.
+
+8. Crie um programa que lê uma senha do usuário. Utilize o bloco try/catch para capturar a exceção SenhaInvalidaException, uma classe de exceção personalizada que deve ser lançada caso a senha não atenda a critérios específicos (por exemplo, ter pelo menos 8 caracteres).
+
+9. Desenvolva um programa em Java que permite aos usuários consultar informações sobre um usuário do GitHub (utilize a API pública do GitHub para obter os dados). Crie uma classe de exceção personalizada, ErroConsultaGitHubException, que estende RuntimeException. Lance essa exceção quando o nome de usuário não for encontrado. No bloco catch, trate de forma específica essa exceção, exibindo uma mensagem amigável. 
 
 #### Desafio:
 
