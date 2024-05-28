@@ -1,5 +1,4 @@
 import br.com.alura.scrennmatch.modelos.TituloOmdb;
-import br.com.alura.scrennmatch.modelos.excecao.ErroDeConversaoDeAnoException;
 
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
@@ -14,6 +13,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Scanner;
 
+import br.com.alura.scrennmatch.excecao.ErroDeConversaoDeAnoException;
 import br.com.alura.scrennmatch.modelos.Titulo;
 
 public class PrincipalComBusca {
@@ -21,10 +21,10 @@ public class PrincipalComBusca {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite um filme para busca: ");
-        var busca = sc.nextLine();
-        var apiKey = "CHAVE_FICARÁ_AQUI";
+        String busca = sc.nextLine();
+        String apiKey = "CHAVE_FICARÁ_AQUI";
 
-        var endereco = "https://www.omdbapi.com/?t=" + busca.replace(" ", "+") + "&apikey=" + apiKey;
+        String endereco = "https://www.omdbapi.com/?t=" + busca.replace(" ", "+") + "&apikey=" + apiKey;
 
         try {
             HttpClient client = HttpClient.newHttpClient();

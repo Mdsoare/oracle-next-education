@@ -5,16 +5,18 @@ import java.util.Scanner;
 public class ExercicioSenha {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite sua senha: ");
-        String senha = scanner.nextLine();
+        String senha = sc.nextLine();
 
         try {
             validarSenha(senha);
             System.out.println("Senha válida. Acesso permitido.");
         } catch (SenhaInvalidaException e) {
             System.out.println("Erro: " + e.getMessage());
+        } finally {
+            sc.close();
         }
     }
 
@@ -23,5 +25,5 @@ public class ExercicioSenha {
             throw new SenhaInvalidaException("A senha deve ter pelo menos 8 caracteres.");
         }
     }
-}
 
+}

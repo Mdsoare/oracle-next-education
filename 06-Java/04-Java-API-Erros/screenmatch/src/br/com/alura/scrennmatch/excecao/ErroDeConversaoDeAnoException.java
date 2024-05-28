@@ -1,4 +1,4 @@
-package br.com.alura.scrennmatch.modelos.excecao;
+package br.com.alura.scrennmatch.excecao;
 
 public class ErroDeConversaoDeAnoException extends RuntimeException {
     private String mensagem;
