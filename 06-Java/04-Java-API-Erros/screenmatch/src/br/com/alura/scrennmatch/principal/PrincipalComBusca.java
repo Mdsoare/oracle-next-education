@@ -1,4 +1,6 @@
 import br.com.alura.scrennmatch.modelos.TituloOmdb;
+import br.com.alura.scrennmatch.modelos.excecao.ErroDeConversaoDeAnoException;
+
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -22,7 +24,7 @@ public class PrincipalComBusca {
         var busca = sc.nextLine();
         var apiKey = "CHAVE_FICARÁ_AQUI";
 
-        var endereco = "https://www.omdbapi.com/?t=" + busca + "&apikey=" + apiKey;
+        var endereco = "https://www.omdbapi.com/?t=" + busca.replace(" ", "+") + "&apikey=" + apiKey;
 
         try {
             HttpClient client = HttpClient.newHttpClient();
@@ -45,6 +47,8 @@ public class PrincipalComBusca {
 
         } catch (IllegalArgumentException e) {
             System.out.println("Erro: " + e.getMessage());
+        } catch (ErroDeConversaoDeAnoException e) {
+            System.out.println(e.getMessage());
         }
 
         System.out.println("O programa finalizou corretamente!");
