@@ -4,9 +4,9 @@
 
 Aprender a consumir uma API HTTP em Java. Entender como receber e converter informações de uma API para objetos Java. Manipular dados no formato JSON. Utilizar a biblioteca Gson para conversão de objetos Java em JSON e vice-versa. Fazer uso das classes do pacote `java.io` para manipulação de arquivos
 
-- Aplicação java: [Clique aqui]();
-- Conteúdo teórico do curso: [Clique aqui]();
-- Exercícios resolvidos: [Clique aqui]();
+- Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/principal);
+- Conteúdo teórico do curso: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/aulas_teoricas);
+- Exercícios resolvidos: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/exercicios);
 - Desafio: [Clique aqui]();
 - Curso Alura: [Clique aqui](https://cursos.alura.com.br/course/java-consumindo-api-gravando-arquivos-lidando-erros);
 
@@ -73,7 +73,13 @@ Os instrutores mencionam que poderiam ter usado a declaração `var` em alguns t
 
 #### Exercícios: 
 
-Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser visto em [Exercicios]().
+Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser visto em [Exercicios](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/exercicios).
+
+1. Crie um programa em Java que utilize as classes `HttpClient`, `HttpRequest` e `HttpResponse` para fazer uma consulta à API do Google Books. Solicite ao usuário que insira o título de um livro, e exiba as informações disponíveis sobre o livro retornado pela API: `ConsultaLivros.java`.
+
+2. Crie um programa Java que utiliza as classes `HttpClient`, HttpRequest e HttpResponse para fazer uma consulta à API CoinGecko e exiba a cotação atual de uma criptomoeda escolhida pelo usuário: `ConsultaCotacaoCripto.java`
+
+3. Crie um programa Java que faça uma consulta à API do TheMealDB utilizando as classes `HttpClient`, HttpRequest e HttpResponse. Solicite ao usuário que insira o nome de uma receita e exiba as informações disponíveis sobre essa receita: `ConsultaReceita.java`
 
 #### Desafio:
 
