@@ -99,9 +99,31 @@ Eles criaram a classe `TituloOmdb` com os atributos `title`, `year` e `runtime` 
 
 Em resumo, a aula mostrou como utilizar a classe `Record` para representar os dados de um JSON de forma mais simples e imutável, e como converter esses dados para um objeto mais completo, lidando com possíveis problemas na conversão.
 
-### Aula 07: 
+### Aula 07: Identificando erros (Stack Trace)
 
-### Aula 08: 
+1. **Importância da stack trace**: A stack trace é a mensagem de erro exibida no console quando ocorre uma exceção. Ela contém informações sobre a pilha de execução do programa, mostrando a sequência de chamadas de métodos que levaram ao erro.
+
+2. **Identificação de erros**: Ao analisar a stack trace, é possível identificar a linha de código que gerou o problema. A linha indicada no final da stack trace é a que começa a gerar o erro.
+
+3. **Exceção NumberFormatException**: Neste caso, a exceção encontrada foi a NumberFormatException, que ocorre quando uma string não pode ser convertida para um número inteiro.
+
+4. **Uso do try/catch**: Os instrutores explicaram como utilizar o mecanismo try/catch para capturar essa exceção e definir o que deve ser feito em caso de erro.
+
+5. **Continuidade da execução**: Mesmo após a ocorrência de uma exceção, o programa pode continuar a execução normalmente, exibindo uma mensagem de erro e finalizando corretamente, graças ao uso do try/catch.
+
+6. **Escopo de variáveis**: As variáveis declaradas dentro de um bloco try/catch só valem dentro daquele escopo, então é necessário mover as linhas de código que estão após o catch para dentro do try.
+
+Esse conteúdo é fundamental para os desenvolvedores, pois ensina a entender e lidar com erros de forma mais eficiente, permitindo que o programa continue a funcionar mesmo após a ocorrência de uma exceção.
+
+### Aula 08: Tratando diversas exceções
+
+Nesta aula, os instrutores discutiram sobre o tratamento de exceções em Java. Eles explicaram que o bloco `catch` é utilizado para lidar com exceções e que é possível ter várias estruturas `catch` em um único bloco `try`.
+
+Eles analisaram um erro específico que ocorreu no programa ao tentar converter o título de um filme. Identificaram que o erro foi causado por um caractere inválido na URL e explicaram que em endereços da web não podem existir espaços, sendo substituídos por `%20`. Também mencionaram a importância de analisar o stack trace para identificar a linha exata onde ocorreu o erro.
+
+Os instrutores mostraram como adicionar múltiplos blocos `catch` para tratar diferentes tipos de exceções, exemplificando a captura de uma `NumberFormatException` e uma `IllegalArgumentException`. Eles também mencionaram que é possível utilizar uma estrutura genérica `catch (Exception e)` para capturar qualquer tipo de exceção, mas ressaltaram que essa abordagem não é recomendada, pois não permite tratar o erro de forma adequada.
+
+Eles discutiram a diferença entre erros e exceções, explicando que as exceções são previstas, tratáveis e antecipadas, enquanto os erros são problemas mais graves e não podem ser facilmente tratados. Eles enfatizaram a importância de tratar as exceções sempre que possível.
 
 ### Aula 09: 
 
