@@ -135,6 +135,13 @@ Eles implementam a classe `ErroDeConversaoDeAnoException`, que estende a classe 
 
 Eles discutem a importância de utilizar o `catch` para tratar exceções de forma mais elaborada, resolvendo o problema de fato, e de pensar antecipadamente sobre a modelagem do programa para prevenir situações de conversão e busca.
 
+### Aula 10: Gravando dados em um arquivo
+
+O foco da aula é ensinar como ler e escrever arquivos em Java, além de compreender a hierarquia de classes, encapsulamento, construtores e exceções envolvidas nesse processo. Os instrutores destacam a importância de seguir padrões e boas práticas ao criar arquivos para leitura, para que tudo funcione corretamente.
+
+O objetivo principal do curso não é apenas aprender JSON, mas desenvolver a habilidade de pesquisar no JavaDoc e entender como utilizar bibliotecas e estruturar o código. Para gravar dados em um arquivo, os instrutores utilizam a classe FileWriter do pacote java.io. Eles demonstram como criar um arquivo, escrever o conteúdo desejado e fechar o arquivo.
+
+Um exemplo prático é mostrado, onde um filme é buscado e o texto é escrito no arquivo filmes.txt. Os instrutores sugerem aprimorar o exercício, escrevendo os dados em formato JSON e criando um arquivo filmes.json com vários filmes, utilizando a classe ArrayList.
 
 #### Exercícios: 
 
