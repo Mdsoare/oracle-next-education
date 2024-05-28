@@ -6,6 +6,7 @@ import com.google.gson.GsonBuilder;
 
 import java.lang.NumberFormatException;
 import java.lang.IllegalArgumentException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -41,6 +42,10 @@ public class PrincipalComBusca {
             Titulo meuTitulo = new Titulo(meuTituloOmdb);
             System.out.println("Título convertido:");
             System.out.println(meuTitulo);
+
+            FileWriter escrita = new FileWriter("filmes.txt");
+            escrita.write(meuTitulo.toString());
+            escrita.close();
 
         } catch (NumberFormatException e) {
             System.out.println("Erro: " + e.getMessage());
