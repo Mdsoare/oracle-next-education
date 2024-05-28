@@ -114,7 +114,13 @@ Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser
 
 2. Crie um programa Java que utiliza as classes `HttpClient`, HttpRequest e HttpResponse para fazer uma consulta à API CoinGecko e exiba a cotação atual de uma criptomoeda escolhida pelo usuário: `ConsultaCotacaoCripto.java`
 
-3. Crie um programa Java que faça uma consulta à API do TheMealDB utilizando as classes `HttpClient`, HttpRequest e HttpResponse. Solicite ao usuário que insira o nome de uma receita e exiba as informações disponíveis sobre essa receita: `ConsultaReceita.java`
+3. Crie um programa Java que faça uma consulta à API do TheMealDB utilizando as classes `HttpClient`, HttpRequest e HttpResponse. Solicite ao usuário que insira o nome de uma receita e exiba as informações disponíveis sobre essa receita: `ConsultaReceita.java`.
+
+4. Crie uma classe `Pessoa` usando o conceito de Record em Java, com atributos como nome, idade e cidade. Em seguida, implemente um programa que utiliza a biblioteca Gson para converter um JSON representando uma pessoa em um objeto do tipo Pessoa.
+
+5.  Modifique o programa do Exercício anterior para permitir a conversão de um JSON mesmo se alguns campos estiverem ausentes ou se houver campos adicionais não representados no objeto Pessoa. Consulte a documentação da biblioteca Gson para flexibilizar a conversão.
+
+6. Crie uma classe `Livro` que contenha atributos como título, autor e um objeto representando a editora. Em seguida, implemente um programa que utiliza a biblioteca Gson para converter um JSON aninhado representando um livro em um objeto do tipo Livro.
 
 #### Desafio:
 
