@@ -60,7 +60,37 @@ Para criar a URL de busca, eles concatenam o endereço inicial da API do OMDb co
 
 Os instrutores mencionam que poderiam ter usado a declaração `var` em alguns trechos, mas optaram por ser mais explícitos. Eles também comentam sobre a possibilidade de transformar os dados do filme em uma classe, como "Titulo", "Serie" ou "Filme", para poder utilizar essas informações em outras funcionalidades do projeto. Para isso, eles sugerem o uso de uma biblioteca Java que faça essa transformação de atributo-valor para classe de forma automática.
 
-### Aula 05: 
+### Aula 05: Transformando dados
+
+A aula aborda a inclusão de bibliotecas externas em um projeto Java, usando a biblioteca **GSON** como exemplo para realizar a **desserialização** de objetos Java a partir de JSON. Os instrutores explicam que existem várias bibliotecas disponíveis para **desserialização**, como a Jackson e a GSON, e que a escolha deve considerar fatores como o conhecimento da equipe, suporte na internet e cultura da empresa.
+
+É mostrado como baixar a biblioteca GSON do site [MVN Repository](https://mvnrepository.com/) e incluí-la como dependência do projeto no IntelliJ. Também é mencionada a importância de usar sistemas de gerenciamento de pacotes, como Maven e Gradle, para facilitar a inclusão de bibliotecas. Os instrutores demonstram como utilizar a biblioteca GSON para transformar JSON em objetos Java, usando os métodos `toJson()` e `fromJson()`. Eles também apresentam a anotação `@SerializedName`, que permite especificar o nome dos campos no JSON.
+
+- [Download do artefato .jar](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.11.0)
+- [Gson User Guide](https://github.com/google/gson/blob/master/UserGuide.md)
+- Inserindo a biblioteca no projeto:
+InteliJ >>> File >>> Project Structure... >>> Modules >>> Dependencies >>> + (add...) >>> 1 JARs or Directories >>> Navegue até o artefato >>> ok
+
+Na classe main
+```
+String json = response.body();
+System.out.println(json);
+
+Gson gson = new Gson();
+Titulo meuTitulo = gson.fromJson(json, Titulo class);
+System.out.println("Titulo" + meuTitulo.getNome());
+```
+
+Na Classe Titulo:
+```
+@SerializedName("Title")
+private String nome;
+@SerializedName("Year")
+private int AnoDeLancamento;
+```
+
+Por fim, os instrutores discutem sobre a melhor forma de lidar com a **desserialização** de JSON em objetos, considerando a possibilidade de diferentes APIs retornarem JSONs com nomes de campos diferentes. Eles sugerem a necessidade de pensar em alternativas para melhorar o código e lidar com essa situação.
+
 
 ### Aula 06: 
 
