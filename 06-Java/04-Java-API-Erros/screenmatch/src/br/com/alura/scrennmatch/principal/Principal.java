@@ -1,3 +1,5 @@
+package br.com.alura.screenmatch.principal;
+
 import java.util.ArrayList;
 
 import br.com.alura.scrennmatch.calculos.CalculadoraDeTempo;

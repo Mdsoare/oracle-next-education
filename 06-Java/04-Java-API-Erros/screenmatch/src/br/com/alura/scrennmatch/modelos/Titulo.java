@@ -1,5 +1,6 @@
 package br.com.alura.scrennmatch.modelos;
 
+import br.com.alura.screenmatch.excecao.ErroDeConversaoDeAnoException;
 //import com.google.gson.annotations.SerializedName;
 
 public class Titulo implements Comparable<Titulo> {
@@ -155,7 +156,8 @@ public class Titulo implements Comparable<Titulo> {
 
     @Override
     public String toString() {
-        return "Nome: " + this.getNome() + '\'' + "Ano de lançamento: " + this.getAnoDeLancamento() + '\''
-                + "Duração em minutos: " + this.duracaoEmMinutos;
+        return "( nome: " + this.getNome() + 
+        ", ano de lançamento: " + this.getAnoDeLancamento() + ","
+        + " duração em minutos: " + this.duracaoEmMinutos + ")";
     }
 }
