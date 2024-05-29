@@ -7,7 +7,7 @@ Aprender a consumir uma API HTTP em Java. Entender como receber e converter info
 - Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/principal);
 - Conteúdo teórico do curso: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/aulas_teoricas);
 - Exercícios resolvidos: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/exercicios);
-- Desafio: [Clique aqui]();
+- Desafio: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/desafio);
 - Curso Alura: [Clique aqui](https://cursos.alura.com.br/course/java-consumindo-api-gravando-arquivos-lidando-erros);
 
 
@@ -183,6 +183,7 @@ Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser
 
 #### Desafio:
 
-Foi proposto um desafio ao final do curso que pode ser visto em [Desafio]().
+Foi proposto um desafio ao final do curso que pode ser visto em [Desafio](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/desafio).
 
 Sobre o desafio:
+Criar uma aplicação para consultar a API ViaCEP com um Menu para o usuário informar o CEP para busca e gerar um arquivo .JSON com os dados do endereço.
