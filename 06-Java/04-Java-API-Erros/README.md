@@ -174,6 +174,13 @@ Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser
 
 9. Desenvolva um programa em Java que permite aos usuários consultar informações sobre um usuário do GitHub (utilize a API pública do GitHub para obter os dados). Crie uma classe de exceção personalizada, ErroConsultaGitHubException, que estende RuntimeException. Lance essa exceção quando o nome de usuário não for encontrado. No bloco catch, trate de forma específica essa exceção, exibindo uma mensagem amigável. 
 
+10. Crie um programa em Java que escreva a seguinte mensagem em um arquivo chamado "arquivo.txt": "Conteúdo a ser gravado no arquivo." Utilize as classes do pacote java.io: `EscreveMensagem.java`.
+
+11. Defina uma classe chamada Titulo com os atributos necessários. Em seguida, crie um programa que instancia um objeto Titulo, serializa esse objeto para JSON usando a biblioteca Gson e imprime o resultado: `Titulo.java`.
+
+12. Modifique o programa anterior para que o JSON gerado seja formatado de maneira mais elegante. Utilize o método setPrettyPrinting para alcançar esse resultado: `Titulo.java`.
+
+
 #### Desafio:
 
 Foi proposto um desafio ao final do curso que pode ser visto em [Desafio]().
