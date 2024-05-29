@@ -143,6 +143,15 @@ O objetivo principal do curso não é apenas aprender JSON, mas desenvolver a ha
 
 Um exemplo prático é mostrado, onde um filme é buscado e o texto é escrito no arquivo filmes.txt. Os instrutores sugerem aprimorar o exercício, escrevendo os dados em formato JSON e criando um arquivo filmes.json com vários filmes, utilizando a classe ArrayList.
 
+### Aula 11: Escrevendo a lista de filmes em json
+
+Nesta aula, os instrutores continuaram o desafio de fazer buscas de filmes, armazenar os resultados em uma lista e salvar essa lista em um arquivo JSON. Eles explicaram como usar o loop `while` para repetir a busca até o usuário digitar "sair". Também discutiram o uso dos métodos `equals()` e `equalsIgnoreCase()` para comparar strings.
+
+Antes do loop `while`, eles criaram uma lista para armazenar os títulos dos filmes encontrados. Dentro do loop, eles adicionavam os novos títulos à lista. Para escrever o arquivo JSON, eles usaram a classe FileWriter e a biblioteca GSON. O GSON foi configurado para converter a lista de títulos em formato JSON e imprimir de forma mais legível.
+
+Ao longo da aula, os instrutores enfatizaram a importância de organizar o código em classes separadas e de entender os conceitos de orientação a objetos.
+
+
 #### Exercícios: 
 
 Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser visto em [Exercicios](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/exercicios).
