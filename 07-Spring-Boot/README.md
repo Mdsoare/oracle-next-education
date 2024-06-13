@@ -13,9 +13,9 @@
 
 **Links do projeto:**
 
-- Aplicação java: [Clique aqui]();
-- Conteúdo teórico do curso: [Clique aqui]();
-- Desafio: [Clique aqui]();
+- Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/07-Spring-Boot/screenmatch/src/main/java/br/com/alura/screenmatch);
+- Conteúdo teórico do curso: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/07-Spring-Boot/aulas_teoricas);
+- Desafio: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/07-Spring-Boot/desafio);
 - Curso Alura: [Clique aqui](https://cursos.alura.com.br/course/java-trabalhando-lambdas-streams-spring-framework).
 
 ### Aula 01: Utilizando o Spring Framework
