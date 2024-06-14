@@ -4,10 +4,10 @@
 
 Aprender a consumir uma API HTTP em Java. Entender como receber e converter informações de uma API para objetos Java. Manipular dados no formato JSON. Utilizar a biblioteca Gson para conversão de objetos Java em JSON e vice-versa. Fazer uso das classes do pacote `java.io` para manipulação de arquivos
 
-- Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/principal);
+- Aplicação java: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/principal);
 - Conteúdo teórico do curso: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/aulas_teoricas);
-- Exercícios resolvidos: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/exercicios);
-- Desafio: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/desafio);
+- Exercícios resolvidos: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/exercicios);
+- Desafio: [Clique aqui](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/desafio);
 - Curso Alura: [Clique aqui](https://cursos.alura.com.br/course/java-consumindo-api-gravando-arquivos-lidando-erros);
 
 
@@ -154,7 +154,7 @@ Ao longo da aula, os instrutores enfatizaram a importância de organizar o códi
 
 #### Exercícios: 
 
-Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser visto em [Exercicios](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/exercicios).
+Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser visto em [Exercicios](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/exercicios).
 
 1. Crie um programa em Java que utilize as classes `HttpClient`, `HttpRequest` e `HttpResponse` para fazer uma consulta à API do Google Books. Solicite ao usuário que insira o título de um livro, e exiba as informações disponíveis sobre o livro retornado pela API: `ConsultaLivros.java`.
 
@@ -183,7 +183,7 @@ Ao logo das aulas foram propostos exercícios de fixação. O resultado pode ser
 
 #### Desafio:
 
-Foi proposto um desafio ao final do curso que pode ser visto em [Desafio](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/br/com/alura/scrennmatch/desafio).
+Foi proposto um desafio ao final do curso que pode ser visto em [Desafio](https://github.com/Mdsoare/oracle-next-education/tree/main/06-Java/04-Java-API-Erros/screenmatch/src/desafio).
 
 Sobre o desafio:
 Criar uma aplicação para consultar a API ViaCEP com um Menu para o usuário informar o CEP para busca e gerar um arquivo .JSON com os dados do endereço.
